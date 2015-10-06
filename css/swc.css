@@ -827,3 +827,8 @@ div.chapter h2 {
         margin: 0px 0px;
     }
 }
+
+.unimportant {
+    font-size: 80%;
+    color: #AAAAAA;
+}
