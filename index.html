@@ -6,14 +6,14 @@ address: Vídeňská 1083, Prague    # street address of home location
 country: Czech-Republic    # country (hyphenated if need be, like 'United-Kingdom')
 language: en   # language code like 'en' or 'fr'
 latlng: 50.0144653, 14.4651758 # fractional latitude and longitude like 41.7901128,-87.6007318
-humandate: Oct 17 - 18, 2015  # use the format 'Feb 17-18, 2020' (without the quotes)
+humandate: Oct 8 - 9, 2016  # use the format 'Feb 17-18, 2020' (without the quotes)
 humantime: 9:00 am - 5:00 pm  # use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: 2015-10-17  # use YYYY-MM-DD format like 2015-01-01
-enddate: 2015-10-18    # use YYYY-MM-DD format like 2015-01-02
-instructor: ["Nasťa&nbsp;Zidkova", "Filip&nbsp;Sedlák", "Mira&nbsp;Hédl", "Stefan&nbsp;Negru"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Petr&nbsp;Šimeček", "Vašek&nbsp;Gergelits", "Martin&nbsp;Jahn", "Petr&nbsp;Švarný", "Tomáš&nbsp;Laube", "Charles&nbsp;Bajeux"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+startdate: 2015-10-08  # use YYYY-MM-DD format like 2015-01-01
+enddate: 2015-10-09    # use YYYY-MM-DD format like 2015-01-02
+instructor: ["Nasťa&nbsp;Zidkova", "Filip&nbsp;Sedlák", "Petr&nbsp;Šimeček", "Libor&nbsp;Mořkovský"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Václav&nbsp;Gergelits", "Vojtěch&nbsp;Filipec", "... and you? We're looking for helpers."]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: softwareforscientists@gmail.com    # contact email address for workshop organizer
-etherpad: https://public.etherpad-mozilla.org/p/2015-10-17-umg # optional (insert the URL for your Etherpad if you're using one)
+etherpad: https://public.etherpad-mozilla.org/p/2016-10-08-umg # optional (insert the URL for your Etherpad if you're using one)
 # eventbrite: # optional (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
 ---
 <!--
@@ -133,7 +133,7 @@ can apply your newly acquired skills.
 
 
 <p style="font-size: 180%; margin: 1em 0">
-    <strong>Registration:</strong> Registration is closed now :(
+    <strong><a href="https://docs.google.com/a/flih.cz/forms/d/e/1FAIpQLScZ8VRl0ZNLdjjAHxq5DQWpcSI48Q9NbvyJ6ln_BaeJrfoRAQ/viewform">Registration form here</a></strong>
 </p>
 <hr/>
 
@@ -154,24 +154,45 @@ Don't take the schedule too seriously, it may change.
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Introductions</td> </tr>
-      <tr> <td>09:30</td>  <td>Introducing the Shell, Files and Directories</td> </tr>
-      <tr> <td>10:20</td>  <td>Coffee</td> </tr>
-      <tr> <td>10:40</td>  <td>Combining Shell Commands, Finding Things</td> </tr>
+      <tr> <td>09:30</td>  <td>
+              <ul>
+                  <li>Introduction to RStudio</li>
+                  <li>Using R as calculator</li>
+                  <li>Reading files, using <code>data.frame</code></li>
+                  <li>Variables, data types</li>
+                  <li>Functions</li>
+              </ul>
+      </td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Analyzing Patient Data in Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>14:50</td>  <td>Making Choices, Combining Things, Understanding Errors</td> </tr>
+      <tr> <td>13:00</td>  <td>
+              <ul>
+                  <li>Functions (continued)</li>
+                  <li>Subsetting</li>
+                  <li>Conditions and loops</li>
+                  <li>Base graphics</li>
+                  <li>Plotting wiht <a href="http://docs.ggplot2.org/current/">ggplot2</a></li>
+              </ul>
+      </td> </tr>
       <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Defensive Programming, Debugging, Command-line programs</td> </tr>
-      <tr> <td>10:20</td>  <td>Coffee</td> </tr>
-      <tr> <td>10:40</td>  <td>Libraries in Python</td> </tr>
+      <tr> <td>09:00</td>  <td>
+              <ul>
+                  <li>Writing data &mdash; files, images</li>
+                  <li>Using <code>apply</code>, <code>lapply</code> instead of loops</li>
+                  <li>Transforming data with <a href="https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html">dplyr</a>
+                      and <a href="https://blog.rstudio.org/2014/07/22/introducing-tidyr/">tidyr</a></li>
+      </td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Python project</td> </tr>
+      <tr> <td>13:00</td>  <td>
+              <ul>
+                  <li><a href="http://rmarkdown.rstudio.com">R Markdown</a></li>
+                  <li>Introduction to <a href="https://www.bioconductor.org/">bioconductor.org</a></li>
+                  <li>Best practices in R</li>
+      </td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
@@ -218,62 +239,28 @@ Don't take the schedule too seriously, it may change.
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 -->
-<h2>Syllabus</h2>
+<h2>Course material and further reading</h2>
 
 <div class="row">
   <div class="col-md-6">
-    <h3><a href="http://swcarpentry.github.io/shell-novice/">The Unix Shell</a></h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="http://swcarpentry.github.io/shell-novice/reference.html">Reference...</a></li>
-    </ul>
+    <h3><a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a></h3>
+    <p>Basic Software Carpentry course teaching R programming.</p>
   </div>
   <div class="col-md-6">
-    <h3><a href="http://swcarpentry.github.io/python-novice-inflammation/">Programming in Python</a></h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="http://swcarpentry.github.io/python-novice-inflammation/reference.html">Reference...</a></li>
-    </ul>
+    <h3><a href="http://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a></h3>
+    <p>R course focused on manipulating data.</p>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-6">
-    <h3><a href="http://swcarpentry.github.io/git-novice/">Version Control with Git</a></h3>
-    <ul>
-      <li>Automated Version Control</li>
-      <li>Setting Up Git</li>
-      <li>Creating a Repository</li>
-      <li>Tracking Changes</li>
-      <li>Exploring History</li>
-      <li>Ignoring Things</li>
-      <li>Remotes in GitHub</li>
-      <li>Collaborating</li>
-      <li>Conflicts</li>
-      <li>Open Science</li>
-      <li>Licensing</li>
-      <li>Hosting</li>
-      <li><a href="http://swcarpentry.github.io/git-novice/reference.html">Reference...</a></li>
-    </ul>
+      <h3><a href="http://www.datacarpentry.org/genomics-workshop/">
+              Data Carpentry Genomics workshop
+          </a></h3>
+          <p>Course from Data Carpentry teaching how to analyze genomics data using R and commandline tools.</p>
   </div>
   <div class="col-md-6">
-    <h3><a href="http://software-carpentry.org/blog/2012/05/an-exercise-with-matplotlib-and-numpy.html">
-        Excersise with matplotlib and numpy
-    </a></h3>
-    <a href="http://software-carpentry.org/blog/2012/05/an-exercise-with-matplotlib-and-numpy.html">
-        <img src="http://software-carpentry.org/blog/2012/05/day_vs_temp-all.png" style="width: 100%">
-    </a>
+    <h3>Other materials will follow</h3>
   </div>
 </div>
 
@@ -295,184 +282,39 @@ Don't take the schedule too seriously, it may change.
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a Software Carpentry workshop, you will need
+  To participate in a Software for Scientists workshop, you will need
   access to the software described below. In addition, you will
   need an up-to-date web browser.
 </p>
-<p>
-  Software Carpentry organization maintains a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
-<div id="shell"> <!-- Start of 'shell' section. -->
-  <h3>The Bash Shell</h3>
+<div id="rstudio">
+  <h3>R Studio</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    <a href="https://www.rstudio.com/">R Studio</a> is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
   </p>
+
+
 
   <div class="row">
-    <div class="col-md-4">
-      <h4 id="shell-windows">Windows</h4>
-      <p>
-        Download the Git for Windows
-	<a href="https://git-for-windows.github.io/">installer</a>. Run the
-        installer. <strong>Important: on the 6th page of the installation wizard (the
-        page titled `Configuring the terminal emulator...`) select `Use Windows'
-        default console window`. If you forgot to do this programs that you need
-        for the workshop will not work properly. If this happens rerun the
-        installer and select the appropriate option.</strong> This will provide you
-        with both Git and Bash in the Git Bash program.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-macosx">Mac OS X</h4>
-      <p>
-        The default shell in all versions of Mac OS X is bash, so no
-        need to install anything.  You access bash from the Terminal
-        (found in
-        <code>/Applications/Utilities</code>).  You may want to keep
-        Terminal in your dock for this workshop.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="shell-linux">Linux</h4>
-      <p>
-        The default shell is usually Bash, but if your
-        machine is set up differently you can run it by opening a
-        terminal and typing <code>bash</code>.  There is no need to
-        install anything.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'shell' section. -->
-
-<div id="editor"> <!-- Start of 'editor' section. -->
-  <h3>Text Editor</h3>
-
-  <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.
-  </p>
-  <p class="unimportant">
-    The default text editor on Mac OS X and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h4>Windows, Linux &amp; Mac</h4>
-      <p>
-          We recommend you to install <a href="https://atom.io/">Atom</a> or
-              <a href="http://www.sublimetext.com/">Sublime Text</a> as your editor.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'editor' section. -->
-
-<div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
-           the workshop will teach Python using something other than
-           the IPython notebook.
-           Details at http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility -->
-  <h3>Python</h3>
-
-  <p>
-    <a href="http://python.org">Python</a> is a popular language for
-    scientific computing, and great for general-purpose programming as
-    well.  Installing all of its scientific packages individually can be
-    a bit difficult, so we recommend an all-in-one installer.
-  </p>
-
-    <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 2.x and not version 3.x</strong>
-      (e.g., 2.7 is fine but not 3.4).
-      Python 3 introduced changes that will break some of the code we teach during the workshop.
-    </p>
-
-    <p class="unimportant">
-      We will teach Python using the IPython notebook, a programming environment
-      that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all <a
-      href='http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility'>supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
-    </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="python-windows">Windows</h4>
-      <ul>
-        <li>
-          Download and
-          install <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
-        </li>
-        <li>
-          Download the default Python 2 installer (do not follow the link to version 3).
-          Use all of the defaults for installation
-          <em>except</em> make sure to check
-          <strong>Make Anaconda the default Python</strong>.
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-macosx">Mac OS X</h4>
-      <ul>
-        <li>
-          Download and
-          install <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
-        </li>
-        <li>
-          Download the default Python 2 installer (do not follow the link to version 3).
-          Use all of the defaults for installation.
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-linux">Linux</h4>
-      <p>
-        We recommend the all-in-one scientific Python installer
-        <a href="http://continuum.io/downloads.html">Anaconda</a>.
-        (Installation requires using the shell and if you aren't
-        comfortable doing the installation yourself just
-        download the installer and we'll help you at the workshop.)
-      </p>
+    <div class="col-md-6">
+      <h4>Can’t I just use R?</h4>
+      <p>RStudio makes R easier to use. We'll teach the course using R Studio.</p>
+      <h4>Download and installation</h4>
       <ol>
-        <li>
-          Download the installer that matches your operating
-          system and save it in your home folder.
-          Download the default Python 2 installer (do not follow the link to version 3).
-        </li>
-        <li>
-          Open a terminal window.
-        </li>
-        <li>
-          Type <pre>bash Anaconda-</pre> and then press
-          tab. The name of the file you just downloaded should
-          appear.
-        </li>
-        <li>
-          Press enter. You will follow the text-only prompts.  When
-          there is a colon at the bottom of the screen press the down
-          arrow to move down through the text. Type <code>yes</code> and
-          press enter to approve the license. Press enter to approve the
-          default location for the files. Type <code>yes</code> and
-          press enter to prepend Anaconda to your <code>PATH</code>
-          (this makes the Anaconda distribution the default Python).
-        </li>
+          <li>Install R. Download package for your system at <a href="https://cran.r-project.org/">CRAN</a>. Then run the installer.
+              <ul>
+                  <li>Linux only - you may already have R in your package manager. In Ubuntu, you can run <code>sudo apt-get install r-recommended</code></li>
+              </ul>
+          </li>
+          <li>Install R Studio. Download package for your system at <a href="https://www.rstudio.com/products/rstudio/download2/#download">RStudio Desktop download</a> and run the installer.</li>
       </ol>
+
+    </div>
+    <div class="col-md-6">
+      <h4>Installation on Windows</h4>
+      <em>Video by <a href="http://openintro.org">openintro.org</a></em>
+      <iframe style="display: block; width: 100%; height: 254px;" src="https://www.youtube.com/embed/eD07NznguA4" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
-  <p>
-  Once you are done installing the software listed above,
-  please go to <a href="setup/index.html">this page</a>,
-  which has instructions on how to test that everything was installed correctly.
-  </p>
-</div> <!-- End of 'Python' section. -->
+</div>

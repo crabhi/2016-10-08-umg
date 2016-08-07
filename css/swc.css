@@ -298,10 +298,22 @@ code {
 div.banner {
 	background-color: #FFFFFF;
 	width: 100%;
-	height: 90px;
-	margin: 0px;
-	padding: 0;
+	height: 340px;
+	margin: 15px 0px 0px 0px;
+	padding: 5px;
 	border-bottom: 1px solid #A6A6A6;
+    background: url("../img/14755931489_7c321e1892_b.jpg");
+    background-size: cover;
+    background-position: 50% 17%;
+}
+
+div.banner header {
+    margin: 20px 15px;
+    text-shadow: 1px 1px 11px white;
+}
+
+div.banner header p {
+    max-width: 12em;
 }
 
 /* Padding around image in top banner. */
@@ -607,6 +619,7 @@ a:hover {
 }
 
 footer {
+    margin-top: 1em;
     background: #2b3990;
     padding: 20px 0;
     font-size: 10pt;
@@ -632,9 +645,8 @@ footer .container .links {
 /* TODO -- might clash with site footer */
 div.footer {
     clear: both;
-    background: url("/img/main_shadow.png") repeat-x scroll center top #FFFFFF;
     padding: 4px 10px 7px 10px;
-   border-top: 1px solid #A6A6A6;
+    border-top: 1px solid #A6A6A6;
     text-align: right;
 }
 
