@@ -5,7 +5,7 @@ venue: Institute of Molecular Genetics      # brief name of host site
 address: Vídeňská 1083, Prague    # street address of home location
 country: Czech-Republic    # country (hyphenated if need be, like 'United-Kingdom')
 language: en   # language code like 'en' or 'fr'
-latlng: 50.0144653, 14.4651758 # fractional latitude and longitude like 41.7901128,-87.6007318
+maploc: https://mapy.cz/s/WSdB # Mapy.cz shortlink, e. g. https://mapy.cz/s/WSdB
 humandate: Oct 8 - 9, 2016  # use the format 'Feb 17-18, 2020' (without the quotes)
 humantime: 9:00 am - 5:00 pm  # use the format '9:00 am - 4:30 pm' (without the quotes)
 startdate: 2015-10-08  # use YYYY-MM-DD format like 2015-01-01
@@ -84,16 +84,12 @@ can apply your newly acquired skills.
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
 -->
-{% if page.latlng %}
 <p>
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="{{page.maploc}}">Mapy.cz</a>
 </p>
-{% endif %}
 
 <!--
   SPECIAL REQUIREMENTS
